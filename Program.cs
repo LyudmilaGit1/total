@@ -7,17 +7,17 @@
             M = words.Split(' ');
             
             
-            var Long= new string[M .Length];
-            var Count = 0;
+            var Len= new string[M.Length];
+            var Index = 0;
             foreach (var temp in M )
             {
                 if (temp.Length <= 3)
                 {
-                    Long[Count] = temp;
-                    Count++;
-                    Console.Write($"'{temp}',"); 
+                    Len[Index]= temp ;
+                    Index++;
+                    Console.Write($"'{temp}',");
                 }
-               
+                
             }
             
-            
+           
